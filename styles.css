@@ -1,0 +1,209 @@
+@media screen and (orientation:portrait) {
+    #content {
+        
+    }
+    
+    #image img {
+        width: 75%;
+    }
+}
+
+* {
+   
+}
+
+html {
+    padding: 0;
+    margin: 0;
+    font-family: tahoma, calibri, times new roman;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: floralwhite; 
+    margin: 0;
+    padding: 0;
+}
+
+.fa {
+    text-decoration: none;
+    color: black;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.click {
+    text-decoration: none;
+    color: black;
+}
+
+.click:hover{
+    opacity: 0.7;
+}
+
+
+
+#head {
+    background-color: floralwhite;
+    width: 100%;
+    font-size: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+}
+
+#head h3 {
+    margin: 0;
+    float: left;
+    padding-left: 100px;
+    font-size: 45px;
+    
+}
+
+
+#head ul li {
+    list-style-type: none;
+    font-size: 25px;
+    padding-right: 10px;
+    padding-top: 10px;
+    float: right;
+}
+
+
+
+#head ul {
+    margin: 0;
+    padding-right: 100px;
+}
+
+#container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+#content {
+    background-color: floralwhite;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    
+    
+}
+
+#rowL {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: column;
+    
+    margin-left: auto;
+    margin-right: auto;
+   
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    position: relative;
+    float: left;
+    
+    padding-left: 75px;
+    
+}
+
+#rowR {
+   display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: column;
+    
+    margin-left: auto;
+    margin-right: auto;
+   
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    position: relative;
+    float: right;
+    
+    padding-right: 75px;
+    
+}
+
+
+
+#image img{
+    width: 800px;
+    height: auto;
+    padding: 20px;
+}
+
+#image img:hover{
+    opacity: 0.7;
+}
+
+
+h2 {
+    font-weight: 100;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 40px;
+    margin: 0;
+    padding-bottom: 25px;
+}
+
+
+
+#footer {
+    bottom: 0;
+    position: relative;
+    text-align: center;
+    background-color: azure;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+    
+}
+
+#aboutcontent h3 {
+    text-align: center;
+}
+
+#aboutcontent {
+    width: 1000px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+    
+}
+
+#contactcontent h3 {
+    text-align: center;
+}
+
+#contactcontent {
+    width: 1000px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+    
+}
+
+#contactimg{
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 100px;
+}
+
