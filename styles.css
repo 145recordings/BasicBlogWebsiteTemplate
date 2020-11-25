@@ -1,12 +1,4 @@
-@media screen and (orientation:portrait) {
-    #content {
-        
-    }
-    
-    #image img {
-        width: 75%;
-    }
-}
+
 
 * {
    
@@ -207,3 +199,67 @@ h3 {
     padding-top: 100px;
 }
 
+@media screen and (orientation:portrait) {
+    #head h3 {
+        font-size: 30px;
+        padding-left: 20px
+    }
+    #head ul {
+        padding-right: 20px;
+    }
+    
+    #head ul li {
+        font-size: 20px;
+        
+    }
+    
+    h3 {
+        font-size: 30px;
+    }
+    
+    #content {
+        width: 80%;
+    }
+    
+    
+    #image img {
+        width: 70vw;
+    }
+    
+    #rowL{
+        padding-left: 0px;
+        padding-right: 0px;
+        float: none;
+            
+    }
+    
+    #rowR{
+        padding-left: 0px;
+        padding-right: 0px;
+        float: none;
+    }
+    
+    
+    
+    #contactcontent{
+        width: auto;
+    
+    }
+    
+    #contactcontent p {
+        padding-left: 25px;
+    }
+    
+    #contactimg{
+        width: 70vw;
+          
+    }
+    
+    #aboutcontent {
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    
+}
